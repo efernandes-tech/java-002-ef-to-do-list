@@ -7,10 +7,10 @@
 </h3>
 
 <p align="center">
-    <a href="https://github.com/efernandes-tech/scaffolds/commits/main">
-        <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/efernandes-tech/scaffolds" />
+    <a href="https://github.com/efernandes-tech/java-002-ef-to-do-list/commits/main">
+        <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/efernandes-tech/java-002-ef-to-do-list" />
     </a>
-    <img alt="Repository size" src="https://img.shields.io/github/repo-size/efernandes-tech/scaffolds">
+    <img alt="Repository size" src="https://img.shields.io/github/repo-size/efernandes-tech/java-002-ef-to-do-list">
     <a href="https://edersonfernandes.com.br">
         <img alt="made by @efernandes-tech" src="https://img.shields.io/badge/Made_by-@efernandes%E2%80%93tech-blue">
     </a>
