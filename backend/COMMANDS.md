@@ -1,7 +1,7 @@
 # Commands:
 
 ```cmd
-
+cd ./backend
 ```
 
 ```cmd
