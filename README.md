@@ -1,9 +1,9 @@
 <h1 align="center">
-    <a href="#" alt="Project Name">Project Name</a>
+    <a href="#" alt="Java To-Do List">Java To-Do List</a>
 </h1>
 
 <h3 align="center">
-    Brief description of your project
+    A simple command-line todo list application built with Java
 </h3>
 
 <p align="center">
@@ -18,7 +18,7 @@
 </p>
 
 <h4 align="center">
-    Status: In progress | Finished
+    Status: In progress
 </h4>
 
 <p align="center">
@@ -31,15 +31,17 @@
 
 ## About
 
-Description about your project and what it does.
+A command-line todo list application built with Java. This project demonstrates basic Java concepts including OOP, collections, and user input handling.
 
 ---
 
 ## Features
 
--   [x] Feature One
--   [x] Feature Two
--   [ ] Feature Three (in progress)
+-   [x] Add tasks to the list
+-   [x] List all tasks with completion status
+-   [x] Mark tasks as completed
+-   [ ] Delete tasks
+-   [ ] Save tasks to file
 
 ---
 
@@ -48,46 +50,38 @@ Description about your project and what it does.
 ### Pre-requisites
 
 Before you begin, you will need to have the following tools installed:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
+[Git](https://git-scm.com), [Java JDK 8+](https://www.oracle.com/java/technologies/downloads/).
 
 #### Running the project
 
 ```bash
 # Clone this repository
-git clone https://github.com/efernandes-tech/scaffolds.git
+git clone https://github.com/efernandes-tech/java-002-ef-to-do-list.git
 
 # Access the project folder
-cd scaffolds
+cd java-002-ef-to-do-list/backend/todo-app
 
-# Install dependencies
-npm install
+# Compile the application
+javac -d bin src/com/todoapp/*.java
 
 # Run the application
-npm start
-
-# The server will start at port: 3000 - go to http://localhost:3000
+java -cp bin com.todoapp.TodoApp
 ```
 
 ---
 
 ## Tech Stack
 
-**Frontend:**
-
--   [React](https://reactjs.org/)
--   [TypeScript](https://www.typescriptlang.org/)
--   [Tailwind CSS](https://tailwindcss.com/)
-
 **Backend:**
 
--   [Node.js](https://nodejs.org/)
--   [Express](https://expressjs.com/)
--   [MongoDB](https://www.mongodb.com/)
+-   [Java](https://www.oracle.com/java/)
+-   Java Collections Framework (ArrayList)
+-   Scanner for user input
 
 **Tools:**
 
 -   [Visual Studio Code](https://code.visualstudio.com/)
--   [Postman](https://www.postman.com/)
+-   Java Development Kit (JDK)
 
 ---
 
